@@ -19,6 +19,10 @@ Import project:
 Configure *Local Git Repo*:
 1) Create folder at *${user.home}/spring-cloud-config-repo* 
 > Path can be changed with param *spring.cloud.config.server.git.uri* in a *config-server/src/main/resources/application.config*
+
+> Windows: C:/Users/Username     
+> Linux: /home/user
+
 2) Copy all files from **configRepo** project folder to *${user.home}/spring-cloud-config-repo*
 3) Go to *${user.home}/spring-cloud-config-repo* and exec next commands
 ```console
